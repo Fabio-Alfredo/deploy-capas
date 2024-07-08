@@ -22,6 +22,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api/qr")
+@CrossOrigin("*")
 public class QrController {
 
     private final QrService qrService;
